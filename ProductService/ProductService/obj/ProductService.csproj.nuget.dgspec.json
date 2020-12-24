@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Suzad\\Books & notes\\3-2\\software_design_&_architecture\\FINAL TERM\\assignment trial\\ProductService2\\ProductService\\ProductService\\ProductService.csproj": {}
+  },
+  "projects": {
+    "D:\\Suzad\\Books & notes\\3-2\\software_design_&_architecture\\FINAL TERM\\assignment trial\\ProductService2\\ProductService\\ProductService\\ProductService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Suzad\\Books & notes\\3-2\\software_design_&_architecture\\FINAL TERM\\assignment trial\\ProductService2\\ProductService\\ProductService\\ProductService.csproj",
+        "projectName": "ProductService",
+        "projectPath": "D:\\Suzad\\Books & notes\\3-2\\software_design_&_architecture\\FINAL TERM\\assignment trial\\ProductService2\\ProductService\\ProductService\\ProductService.csproj",
+        "packagesPath": "C:\\Users\\Zilkod\\.nuget\\packages\\",
+        "outputPath": "D:\\Suzad\\Books & notes\\3-2\\software_design_&_architecture\\FINAL TERM\\assignment trial\\ProductService2\\ProductService\\ProductService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zilkod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

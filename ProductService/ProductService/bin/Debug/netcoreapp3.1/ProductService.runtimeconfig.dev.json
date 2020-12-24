@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Zilkod\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Zilkod\\.nuget\\packages"
+    ]
+  }
+}
