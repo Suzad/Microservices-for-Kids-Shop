@@ -13,9 +13,9 @@ namespace ProductService.Database
         public DbSet<Product> products { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder
+            /*optionsBuilder
                 .UseMySql("server=127.0.0.1;port=3306;user=suzad;password=suzad;database=ProductDB")
-                .UseLoggerFactory(LoggerFactory)
+                .UseLoggerFactory(LoggerFactory)*/
         }
     }
 }

@@ -30,3 +30,10 @@ D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment 
 D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.csproj.CopyComplete
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.csproj.CoreCompileInputs.cache
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.MvcApplicationPartsAssemblyInfo.cache
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
