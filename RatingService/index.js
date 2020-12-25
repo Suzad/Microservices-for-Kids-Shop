@@ -50,7 +50,6 @@ app.post("/rate", (req, res) => {
     if (err) {
       throw err;
     }
-    console.log(result.length);
     let total_rating = { result: result };
 
     res.send(total_rating);
