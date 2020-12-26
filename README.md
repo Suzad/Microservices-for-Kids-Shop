@@ -22,4 +22,4 @@ For ProductService, we used <strong>Microsoft ASP .NET Core MVC Framework.</stro
 7. sending the request <strong>5 times</strong>  will update average rating and the Product table is updated.
 
 # Create Database 
-1. In Database, Run the files from <strong>database.sql</strong> and <strong>script.sql</strong>. it will create the necessary database.
+1. In Database, Run the files from <strong>database_query.sql</strong>. it will create the necessary database.
