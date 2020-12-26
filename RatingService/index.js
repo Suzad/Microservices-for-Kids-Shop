@@ -50,14 +50,12 @@ app.post("/rate", (req, res) => {
     }
   );
 
-  sql = "SELECT t.* FROM kids_shop.rating t LIMIT 501";
+  sql = "SELECT * FROM kids_shop.rating LIMIT 0,300";
 
   mysqlConnection.query(sql, (err, result) => {
-    if (err) {
-      throw err;
-    }
-    let total_rating = { result: result };
-
-    res.send(total_rating);
+    if (!err) {
+      let total_rating = { result: result };
+      res.send(total_rating);
+    } else console.log(err);
   });
 });
