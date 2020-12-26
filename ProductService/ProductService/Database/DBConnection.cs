@@ -3,12 +3,15 @@ using ProductService.Database.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace ProductService.Database
 {
     public class DBConnection
     {
+
         string serverIp = "localhost";
         string username = "root";
         string password = "suzad";
@@ -62,6 +65,7 @@ namespace ProductService.Database
 
         public void AddProduct(string name, int categoryId)
         {
+            //Product product = new Product();
             string query = "INSERT INTO product(name,categoryId) VALUES(@name, @categoryId)";
 
             MySqlCommand mySqlCommand = new MySqlCommand(query, this.connection);
@@ -70,6 +74,7 @@ namespace ProductService.Database
             //mySqlCommand.Parameters.AddWithValue("@CreditHour", product.CreditHour);
             //mySqlCommand.Parameters.AddWithValue("@CourseTeacher", product.CourseTeacher);
             //mySqlCommand.Parameters.AddWithValue("@GuestTeacher", product.GuestTeacher);
+            
 
             try
             {
@@ -83,8 +88,22 @@ namespace ProductService.Database
             //return "Course Successfully Added with Course Code: " + course.CourseId;
         }
 
+        /*public ActionResult StatusFunc(Product product, string name)
+        {
+            /*if (product.name != null)
+            {
+                return new HttpStatusCodeResult((HttpStatusCode)500,
+               "Error");
+            }
+            return new HttpStatusCodeResult((HttpStatusCode)201,
+               "Successful"); 
+            string query = "SELECT COUNT(NAME) FROM product WHERE name=@name";
+            MySqlCommand mySqlCommand = new MySqlCommand(query, this.connection);
+            mySqlCommand.Parameters.AddWithValue("@name", name);
+        }*/
 
-        public void UpdateProduct(int id, int categoryId, string categoryName)
+
+    public void UpdateProduct(int id, int categoryId, string categoryName)
         {
             string query = "UPDATE product SET categoryId = @categoryId, categoryName = @categoryName WHERE id = @id ";
 

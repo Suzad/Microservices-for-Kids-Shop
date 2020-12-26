@@ -44,6 +44,7 @@ namespace ProductService.Controllers
         {
             DBConnection connection = new DBConnection();
             connection.AddProduct(product.name, product.categoryId);
+            //connection.StatusFunc(product,)
         }
 
         // PUT api/<ProductController>/5
