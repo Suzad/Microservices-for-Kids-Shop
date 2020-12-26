@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace ProductService.Controllers
 {
-    [Route("/[controller]")]
+    [Microsoft.AspNetCore.Components.Route("/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
@@ -40,10 +40,12 @@ namespace ProductService.Controllers
         // POST api/<ProductController>
         [HttpPost]
         [Route("/[controller]/add")]
-        public void Post([FromForm] Product product)
+        public System.Web.Mvc.ActionResult Post([FromForm] Product product)
         {
             DBConnection connection = new DBConnection();
-            connection.AddProduct(product.name, product.categoryId);
+            //connection.AddProduct(product.name, product.categoryId);
+            return connection.StatusCoidng(product.name, product.categoryId);
+            //return new System.Web.Mvc.HttpStatusCodeResult(code);
             //connection.StatusFunc(product,)
         }
 

@@ -6,6 +6,8 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ProductService.Database
 {
@@ -61,6 +63,54 @@ namespace ProductService.Database
 //                }
             }
             return ProductList;
+        }
+
+        public System.Web.Mvc.ActionResult StatusCoidng(string name, int categoryId)
+        {
+            int count = 0;
+            //int dup=0;
+            string query = "select count(*) from product where name='"+name+"'";
+
+            MySqlCommand mySqlCommand = new MySqlCommand(query, this.connection);
+            //mySqlCommand.Parameters.AddWithValue("@name", name);
+            //mySqlCommand.Parameters.("@dup", dup);
+
+            var reader = mySqlCommand.ExecuteReader();
+
+            while (reader.Read())
+            {
+                //try
+                //{
+                Product product = new Product();
+                count = Convert.ToInt32(reader["count(*)"]);
+                //}
+                //catch(Exception e)
+                //{
+
+                //                }
+            }
+
+            if (count > 0)
+            {
+                //return 400;
+                //StatusCodeResult statusCodeResult=new StatusCodeResult(400);
+                //return statusCodeResult.ExecuteResult();
+                //int statusCode = 400;
+                //return new HttpStatusCodeResult(statusCode);
+                return new HttpStatusCodeResult((HttpStatusCode)400, "Bad Request");
+            }
+            else if (count == 0)
+            {
+                AddProduct(name, categoryId);
+                //return StatusCode(200);
+                //return 0;
+                return new HttpStatusCodeResult((HttpStatusCode)201, "success");
+            }
+            else
+            {
+                return new HttpStatusCodeResult((HttpStatusCode)500, "Problem");
+            }
+            
         }
 
         public void AddProduct(string name, int categoryId)
