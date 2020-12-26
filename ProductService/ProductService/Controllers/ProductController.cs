@@ -9,7 +9,7 @@ using ProductService.Database;
 using ProductService.Database.Entity;
 using Microsoft.AspNetCore.Http;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
 
 namespace ProductService.Controllers
 {
@@ -17,39 +17,46 @@ namespace ProductService.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        // GET: api/<ProductController>
+       
         [HttpGet]
-        //[ResponseType(typeof(List<Product>))]
         [Route("/[controller]/list")]
         public List<Product> Get()
         {
-            //return new string[] { "value1", "value2" };
+            
             DBConnection connection = new DBConnection();
-            //return connection.getConnectionStatus();
+           
             return connection.getProduct();
-            //return new HttpResponseMessage(HttpStatusCode.NotModified);
+           
         }
 
-        // GET api/<ProductController>/5
+       
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/<ProductController>
         [HttpPost]
         [Route("/[controller]/add")]
-        public System.Web.Mvc.ActionResult Post([FromForm] Product product)
+        public IActionResult Post([FromForm] Product product)
         {
             DBConnection connection = new DBConnection();
-            //connection.AddProduct(product.name, product.categoryId);
-            return connection.StatusCoidng(product.name, product.categoryId);
-            //return new System.Web.Mvc.HttpStatusCodeResult(code);
-            //connection.StatusFunc(product,)
+            
+            if (connection.isDuplicate(product.name, product.categoryId))
+            {
+                return BadRequest();
+            }
+            else if (connection.AddProduct(product.name, product.categoryId))
+            {
+                return Created("successful creation","obj");
+            }
+            else
+            {
+                return StatusCode(500,"Error occured");
+            }
         }
 
-        // PUT api/<ProductController>/5
+       
         [HttpPut("{id}")]
         [Route("/[controller]/updateCategory")]
         public void Put([FromForm] Product product)
@@ -58,13 +65,26 @@ namespace ProductService.Controllers
             connection.UpdateProduct(product.id, product.categoryId,product.categoryName);
         }
 
-        // DELETE api/<ProductController>/5
+        
         [HttpDelete("{id}")]
         [Route("/[controller]/remove/{id}")]
-        public void Delete(int id)
+        public void Delete(Guid id)
         {
             DBConnection connection = new DBConnection();
             connection.DeleteProduct(id);
+        }
+
+        [HttpPost]
+        [Route("/[controller]/updateRating")]
+        public void UpdateRating([FromBody] List<Rating> ratings )
+        {
+            DBConnection connection = new DBConnection();
+            foreach (var rating in ratings)
+            {
+                Console.WriteLine(rating);
+                connection.RatingUpdate(rating);
+            }
+            
         }
     }
 }
