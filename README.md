@@ -1,5 +1,5 @@
 # Overview of Microservice
-For ProductService, we used <strong>Microsoft ASP .NET Core MVC Framework.</strong> for RatingService, we used <strong>Node.js.</strong> We ingrated the microservices by sending a <strong>POST</strong> request from RatingService to ProductService
+For ProductService, we used <strong>Microsoft ASP .NET Core MVC Framework.</strong> for RatingService, we used <strong>Node.js.</strong> We ingrated the microservices by sending a <strong>POST</strong> request from RatingService to ProductService. for Database, we used <strong>MySQL</strong>
 
 # Starting the Product Service
 1. Open the folder ProductService. click on the solution folder and open the project in Visual Studio.
@@ -20,3 +20,6 @@ For ProductService, we used <strong>Microsoft ASP .NET Core MVC Framework.</stro
 5. Now run `npm start` in terminal. The message <strong>"DB Connection Successful"</strong> should show
 6. Now go to postman . sending a <strong>POST</strong> request to https://localhost:3000/rate/ will to add a rating, with the input data in raw format in request body
 7. sending the request <strong>5 times</strong>  will update average rating and the Product table is updated.
+
+# Create Database 
+1. In Database, Run the files from <strong>database.sql</strong> and <strong>script.sql</strong>. it will create the necessary database.
