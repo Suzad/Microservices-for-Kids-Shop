@@ -55,10 +55,12 @@ app.post("/test", (req, res) => {
 
 //Insert a Rate
 app.post("/rate", (req, res) => {
+  //console.log("hello");
   let rating = req.body;
   var sql =
     "SET @prod_id = ?;SET @rate_value = ?;SET @customer_id =?;\
     CALL store_rating(@prod_id, @rate_value, @customer_id);";
+  //console.log("hello world 2");
 
   exec_count = exec_count + 1;
   if (exec_count >= 5) {
@@ -66,6 +68,7 @@ app.post("/rate", (req, res) => {
     var sql2 =
       "use kids_shop;\
     select product_id, avg(value) as average, count(product_id) as count from rating group by product_id;";
+
     mysqlConnection.query(
       sql2,
       [rating.product_id, rating.average, rating.count],
@@ -83,13 +86,26 @@ app.post("/rate", (req, res) => {
     );
     // app.post("http://localhost:61036/product/updateCategory")
   } else {
+    //console.log("hello world 3");
     mysqlConnection.query(
       sql,
       [rating.productId, rating.rating, rating.raterId],
       (err, result) => {
         if (!err) {
+          //res.send("hello world");
+          //console.log(result);
         } else console.log(err);
       }
     );
+    //console.log("hello world 4");
+
+    sql = "SELECT * FROM kids_shop.rating LIMIT 0,300";
+
+    mysqlConnection.query(sql, (err, result) => {
+      if (!err) {
+        let total_rating = { result: result };
+        res.send(total_rating);
+      } else console.log(err);
+    });
   }
 });
