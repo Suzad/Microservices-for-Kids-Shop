@@ -1,0 +1,30 @@
+  {
+    "ReRoutes": [
+      {
+        "DowsstreamPathTemplate": "/product/list",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": "61036"
+          }
+        ],
+        "UpstreamPathTemplate": "/list",
+        "UpstreamHttpMethod": [ "GET" ]
+      },
+      {
+        "DowsstreamPathTemplate": "/product/add",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": "61036"
+          }
+        ],
+        "UpstreamPathTemplate": "/add",
+        "UpstreamHttpMethod": [ "POST" ]
+      }
+    ]
+
+  }
+

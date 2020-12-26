@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\ProductService\\ProductService.csproj": {}
+    "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\ProductService\\ProductService.csproj": {
+    "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\ProductService\\ProductService.csproj",
-        "projectName": "ProductService",
-        "projectPath": "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\ProductService\\ProductService.csproj",
+        "projectUniqueName": "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\WebApplication1\\WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\Zilkod\\.nuget\\packages\\",
-        "outputPath": "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\ProductService\\obj\\",
+        "outputPath": "D:\\Suzad\\APIAssingment\\APIBuilding\\ProductService\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zilkod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,17 +38,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNet.Mvc": {
+            "Ocelot": {
               "target": "Package",
-              "version": "[5.2.7, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[3.2.4, )"
+              "version": "[13.8.0, )"
             }
           },
           "imports": [

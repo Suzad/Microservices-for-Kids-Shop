@@ -30,3 +30,56 @@ D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment 
 D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.csproj.CopyComplete
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.csproj.CoreCompileInputs.cache
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.MvcApplicationPartsAssemblyInfo.cache
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Suzad\Books & notes\3-2\software_design_&_architecture\FINAL TERM\assignment trial\ProductService2\ProductService\ProductService\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\ProductService.exe
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\ProductService.deps.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\ProductService.runtimeconfig.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\ProductService.runtimeconfig.dev.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\ProductService.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\ProductService.pdb
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.csprojAssemblyReference.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.AssemblyInfoInputs.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.AssemblyInfo.cs
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.RazorTargetAssemblyInfo.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.csproj.CopyComplete
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\staticwebassets\ProductService.StaticWebAssets.Manifest.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\staticwebassets\ProductService.StaticWebAssets.xml
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.pdb
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.genruntimeconfig.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.csproj.CoreCompileInputs.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\ProductService\obj\Debug\netcoreapp3.1\ProductService.MvcApplicationPartsAssemblyInfo.cache

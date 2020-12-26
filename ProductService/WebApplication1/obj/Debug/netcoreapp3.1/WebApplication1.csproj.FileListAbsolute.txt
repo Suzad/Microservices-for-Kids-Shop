@@ -1,0 +1,10 @@
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\bin\Debug\netcoreapp3.1\WebApplication1.exe
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.RazorTargetAssemblyInfo.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.Manifest.cache
+D:\Suzad\APIAssingment\APIBuilding\ProductService\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.xml
