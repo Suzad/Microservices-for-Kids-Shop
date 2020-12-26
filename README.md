@@ -18,7 +18,7 @@ For ProductService, we used <strong>Microsoft ASP .NET Core MVC Framework.</stro
 # Step-3: Starting the Rating Service
 1. Open the Folder RatingService in Visual Studio Code
 2. Run the command `npm install` in terminal to install necessary packages
-3. Go to <strong>Dependencies.txt</strong> which is located at <strong>RatingService</strongService> folder and install given dependencies.
+3. Go to <strong>Dependencies.txt</strong> which is located at <strong>RatingService</strong> folder and install given dependencies.
 4. Before running the index.js file we have to change in the variable <strong>mysqlConnection</strong> to update host,user, password, and database with the host,user, password and database name of our MySQL DB.
 5. Now run `node index.js` in terminal. The message <strong>"DB Connection Successful"</strong> and <strong>Express server is runnig at port no : 3000</strong> should show. Remember if something is already running in your '3000 port' then you have to change the port number in the index.js file. Suppose app.listen(port, ()=>  ...Here you have to assign port=3001.
 6. Now go to postman. Sending a <strong>POST</strong> request to https://localhost:3000/rate/ will to add a rating, with the input data in raw format in request body. The updated "rating" table can be shown in the database.
