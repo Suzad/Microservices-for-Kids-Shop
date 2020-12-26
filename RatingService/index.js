@@ -40,6 +40,12 @@ app.post("/rate", (req, res) => {
     (err, result) => {
       if (!err) {
         console.log(result);
+        res.status(200)
+          .json({
+            statusCode: 201,
+            error: false,
+            msg: "Rated"
+          });
       } else console.log(err);
     }
   );
