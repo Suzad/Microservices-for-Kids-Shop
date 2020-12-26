@@ -59,6 +59,7 @@ app.post("/rate", (req, res) => {
   var sql =
     "SET @prod_id = ?;SET @rate_value = ?;SET @customer_id =?;\
     CALL store_rating(@prod_id, @rate_value, @customer_id);";
+<<<<<<< HEAD
 
   exec_count = exec_count + 1;
   if (exec_count >= 5) {
@@ -92,4 +93,31 @@ app.post("/rate", (req, res) => {
       }
     );
   }
+=======
+  console.log(sql);
+  mysqlConnection.query(
+    sql,
+    [rating.productId, rating.rating, rating.raterId],
+    (err, result) => {
+      if (!err) {
+        console.log(result);
+        res.status(200)
+          .json({
+            statusCode: 201,
+            error: false,
+            msg: "Rated"
+          });
+      } else console.log(err);
+    }
+  );
+
+  sql = "SELECT * FROM kids_shop.rating LIMIT 0,300";
+
+  mysqlConnection.query(sql, (err, result) => {
+    if (!err) {
+      let total_rating = { result: result };
+      res.send(total_rating);
+    } else console.log(err);
+  });
+>>>>>>> 8e7e4ea10b7d2ef2364898c2a5cd471026b7e658
 });
