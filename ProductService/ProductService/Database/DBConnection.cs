@@ -65,9 +65,9 @@ namespace ProductService.Database
             return ProductList;
         }
 
-        public System.Web.Mvc.ActionResult StatusCoidng(string name, int categoryId)
+        public int StatusCoidng(string name, int categoryId)
         {
-            int count = 0;
+            int count =0 ;
             //int dup=0;
             string query = "select count(*) from product where name='"+name+"'";
 
@@ -89,15 +89,17 @@ namespace ProductService.Database
 
                 //                }
             }
+            return count;
 
-            if (count > 0)
+            /*if (count > 0)
             {
                 //return 400;
                 //StatusCodeResult statusCodeResult=new StatusCodeResult(400);
                 //return statusCodeResult.ExecuteResult();
                 //int statusCode = 400;
                 //return new HttpStatusCodeResult(statusCode);
-                return new HttpStatusCodeResult((HttpStatusCode)400, "Bad Request");
+                //return new HttpStatusCodeResult((HttpStatusCode)400, "Bad Request");
+                return StatusCode("","");
             }
             else if (count == 0)
             {
@@ -109,7 +111,7 @@ namespace ProductService.Database
             else
             {
                 return new HttpStatusCodeResult((HttpStatusCode)500, "Problem");
-            }
+            }*/
             
         }
 

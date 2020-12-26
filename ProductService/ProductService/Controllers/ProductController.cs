@@ -40,13 +40,25 @@ namespace ProductService.Controllers
         // POST api/<ProductController>
         [HttpPost]
         [Route("/[controller]/add")]
-        public System.Web.Mvc.ActionResult Post([FromForm] Product product)
+        public IActionResult Post([FromForm] Product product)
         {
             DBConnection connection = new DBConnection();
             //connection.AddProduct(product.name, product.categoryId);
-            return connection.StatusCoidng(product.name, product.categoryId);
+            int count= connection.StatusCoidng(product.name, product.categoryId);
             //return new System.Web.Mvc.HttpStatusCodeResult(code);
             //connection.StatusFunc(product,)
+            if (count > 0)
+            {
+                return BadRequest();
+            }
+            else if (count == 0)
+            {
+                return Created("successful creation","obj");
+            }
+            else
+            {
+                return StatusCode(500,"Error occured");
+            }
         }
 
         // PUT api/<ProductController>/5
